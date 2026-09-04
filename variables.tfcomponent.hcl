@@ -24,11 +24,6 @@ variable "organization_name" {
   description = "GitHub organization name."
 }
 
-variable "artifacts_delivery_contract_release_tag" {
-  type        = string
-  description = "The exact SemVer GitHub Release tag of the app artifacts delivery contract to realize in the target environment."
-}
-
 variable "github_app_id" {
   type = string
 }
